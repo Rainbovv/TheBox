@@ -38,8 +38,8 @@ class TheBox {
 		  BoxConfig.print(value);
 		  BoxConfig.printIsTheBoxBig(value);
 		  BoxConfig.printIsTheBoxOk();
-		  Box.Config.printBoxSize(lenght, width, height);
-		  Box.Config.printBoxVolume(volume);
+		  BoxConfig.printBoxSize(lenght, width, height);
+		  BoxConfig.printBoxVolume(volume);
 
 	  }
 	  
