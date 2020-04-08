@@ -20,7 +20,7 @@ class TheBox {
 		  value = in.nextInt();
 	    
 		  System.out.printf("%nThe BOX is OK or BROKEN?%nIf OK %6s enter %2s  1%nIf BROKEN %2s enter %2s  2%n","-","-","-","-");
-		  Box.isTheBoxBroken();
+		  BoxConfig.isTheBoxBroken();
 		    
 		  System.out.println("\nEnter the LENGHT of the BOX:");
 		  lenght = in.nextInt();
@@ -35,11 +35,11 @@ class TheBox {
 
 	/////////////// OUTPUT /////////////
 		  divider();
-		  Box.print(value);
-		  Box.printIsTheBoxBig(value);
-		  Box.printIsTheBoxOk();
-		  Box.printBoxSize(lenght, width, height);
-		  Box.printBoxVolume(volume);
+		  BoxConfig.print(value);
+		  BoxConfig.printIsTheBoxBig(value);
+		  BoxConfig.printIsTheBoxOk();
+		  Box.Config.printBoxSize(lenght, width, height);
+		  Box.Config.printBoxVolume(volume);
 
 	  }
 	  
