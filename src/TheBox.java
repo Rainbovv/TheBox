@@ -48,7 +48,7 @@ class TheBox {
 	  }
 }
 	///////////////////////
-class Box{
+class BoxConfig{
 
 	// #Properties of the class
 	  static boolean broken;
